@@ -74,10 +74,10 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
-}
 
-# ======================
-# 유틸
+    labels[0]:{"texts":["윤어게인"]},
+    labels[0]:{"texts":["정상수"]},
+    labels[0]:{"texts":["이재명은 중국"]},
 # ======================
 def load_pil_from_bytes(b: bytes) -> Image.Image:
     pil = Image.open(BytesIO(b))
