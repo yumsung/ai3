@@ -75,7 +75,8 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
 
-    labels[0]:{"texts":["윤어게인"]},
+    labels[0]:{"texts":["윤어게인"],
+              "videos":[https://www.youtube.com/shorts/oJvNWfxdD5g],
     labels[0]:{"texts":["정상수"]},
     labels[0]:{"texts":["이재명은 중국"]},
 # ======================
